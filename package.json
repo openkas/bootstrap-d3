@@ -1,0 +1,41 @@
+{
+  "name": "bootstrap-d3",
+  "description": "Bootstrap-d3 integration",
+  "version": "0.0.0",
+  "keywords": [
+    "Bootstrap",
+    "d3",
+    "integration"
+  ],
+  "contributors": [
+    {
+      "name": "Joseph Ammil Descalzota",
+      "email": "fskreuz@gmail.com",
+      "web": "http://scratchpaper.tk"
+    },
+    {
+      "name": "Marijn van der Zee",
+      "email": "marijn@serraict.com",
+      "web": "http://serraict.com"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/openkas/bootstrap-d3/issues"
+  },
+  "repository": "https://github.com/openkas/bootstrap-d3",
+  "licenses": [
+    {
+      "name": "BSD",
+      "url": "http://opensource.org/licenses/BSD-2-Clause"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-qunit": "~0.2.2",
+    "grunt-jsbeautifier": "~0.1.9"
+  }
+}

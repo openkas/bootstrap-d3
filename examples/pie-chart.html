@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <style>
+
+        body {
+          font: 10px sans-serif;
+        }
+
+        .arc path {
+          stroke: #fff;
+        }
+
+        svg .pieText {
+          fill : #FFF;
+          font-size: 14px;
+          text-anchor:middle;
+        }
+
+      </style>
+  </head>
+  <body>
+    <!-- REQUIRES A SERVER TO BE RUN -->
+    <!-- node app.js -->
+    <script src="components/jquery/jquery.js"></script>
+    <script src="components/d3/d3.js"></script>
+    <script src="../src/pie-chart.js"></script>
+    <script>
+      BootStrapD3.pieChart.create();
+    </script>
+  </body>
+</html>

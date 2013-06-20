@@ -1,0 +1,14 @@
+/*
+<%= pkg.title || pkg.name %> v<%= pkg.version %>
+<%= grunt.template.today('yyyy-mm-dd') %>
+<%= pkg.homepage ? pkg.homepage : pkg.repository ? pkg.repository : '' %>
+
+Contributors:
+<%= 
+_.map(pkg.contributors,function(value,i){
+  return value.name + ' <' + value.email + '> ' + value.web;
+}).join('\n')
+%>
+
+License: <%= _.pluck(pkg.licenses, "name").join(", ") %> 
+*/
